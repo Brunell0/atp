@@ -1,0 +1,101 @@
+1a) int c, estaVariável, q76354, número;
+
+b) printf("Digite um inteiro:\n");
+
+c) int a;
+
+scanf("%d", &a);
+
+d)
+if(numero != 7){
+   printf("A variável número não é igual a 7");   
+}
+
+e) printf("Este é um programa em C.");
+
+f) printf("Este é um programa em C\n.");
+   printf("Este é um programa em C.");
+
+g) printf("Este\né\num\nprograma\nem\nC.");
+
+h) printf("Este\té\tum\tprograma\tem\tC."); 
+
+
+2a) faltou % no d e & no valor
+b) faltou virgula após o fechamentos das aspas, e \n está como parâmetro inválido
+c) em atribuições, o valor que recebe não realiza operações, logo a soma é incorreta. E faltou ; no final
+d) comparativo invertido (=>, o correto é >=), e a comparação == deveria ser atribuição, com um =
+e) scanf é uma palavra reservada da linguagem C, logo é com todas as letras MINÚSCULAS, e por se tratar de um decimal no scanf, deve-se ter o & antes da variável
+f) a função espera 2 parâmetros de tipo decimal, portanto há 3 parâmetros sendo passados
+g) no if usa-se comparação ( == ), não se usa ; no if, e faltou a abertura das aspas na função printf
+h) faltou o f da função printf (não é print), e a vírgula é após as aspas, não dentro dela
+i) printf é uma palavra reservada da linguagem C, logo é com todas as letras MINÚSCULAS, faltou o fechamento das aspas após o \n, além de não ser permitido o uso de & no printf (& apenas no scanf)
+
+
+3)
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	int a, b;
+	printf("Digite dois digitos inteiros:\n");
+	scanf("%d", &a);
+	scanf("%d", &b);
+
+	if (a > b){
+		printf("a eh maior que b\n");
+	}else if (a < b){
+		printf("b eh maior que a\n");
+	}else{ //a == b
+		printf("a eh igual a b\n");
+	}
+	
+	getchar();
+	return 0;
+}
+
+
+4a) 
+int soma = 0;
+for(int i = 1; i <= 99; i+=2){
+	soma+= i;
+}
+printf("Soma dos impares de 1 a 99: %d\n", soma);
+
+b) 
+float i = 333.546372;
+printf("%.1f\n", i);
+printf("%.2f\n", i);
+printf("%.3f\n", i);
+printf("%.4f\n", i);
+printf("%.5f\n", i);
+
+c) 
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+	float resp = pow(2.5, 3);
+	printf("%.2f\n", resp);
+	getchar();	
+	return 0;
+}
+
+d)
+x = 1;
+while(x <= 20){
+	printf("%d ", x);
+        if (x % 5 == 0){
+        	printf("\n");
+        }          
+        x++;
+}
+
+e)
+for(x = 1; x <= 20; x++){
+	printf("%d ", x);
+        if (x % 5 == 0){
+		printf("\n");
+        }          
+}
+
