@@ -1,0 +1,17 @@
+a - vetores
+
+b - mesmo tipo
+
+c - índice
+
+d - p[0], p[1], p[2], p[3] e p[4]
+
+e - valor
+
+f - declarar
+
+g - qtd. linhas, qtd. colunas
+
+h - m, n, m*n
+
+i - d[2][4]

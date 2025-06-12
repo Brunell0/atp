@@ -1,0 +1,13 @@
+a - ponteiro utilizado de forma incorreta, aponta para endereço inesperado
+
+b - long deveria acompanhar int; atribuir float para int é instável e conceitualmente incorreto
+
+c - tipo de x inválido para ser atribuído a y
+
+d - tamanho do vetor s não especificado; variável do laço for deveria ser diferente do vetor; printf deveria conter s[i], e não *s; s é estático, mas utiliza ponteiro
+
+e - void não pode receber um short int
+
+f - xPtr obtém o endereço de x, e não seu valor; atribuir float para int com float sendo número decimal dará erro
+
+g - s é declarado como char, porém no printf é chamado como string (%s); s não foi inicializada
